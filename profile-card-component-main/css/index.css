@@ -1,0 +1,92 @@
+/* globale style */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+/* End globale style */
+
+.bool1 {
+  position: absolute;
+  width: 830px;
+  height: 680px;
+  bottom: -355px;
+  right: -200px;
+  border-radius: 4554px;
+}
+.bool2 {
+  position: absolute;
+  width: 701px;
+  height: 631px;
+  top: -302px;
+  left: -65px;
+}
+
+.profile-card {
+  background: white;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  z-index: 1;
+}
+.profile-card-header {
+  background: url("../images/bg-pattern-card.svg") no-repeat center;
+  background-size: cover;
+  padding: 50px;
+}
+.profile-img {
+  height: 51px;
+}
+.profile-img img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 4px solid white;
+  position: relative;
+  top: -40px;
+}
+div .name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.age {
+  font-weight: 100;
+  color: hsl(0, 0%, 59%);
+}
+.location {
+  font-size: 15px;
+  color: hsl(0, 0%, 59%);
+  margin-top: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+}
+.hr {
+  border: none;
+  height: 1px;
+  background-color: hsl(0deg 0% 78.5%);
+}
+div .stat .stat-number {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+div .stat .stat-label {
+  font-size: 10px;
+  color: hsl(0, 0%, 59%);
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+/* Media Queries for Responsiveness */
